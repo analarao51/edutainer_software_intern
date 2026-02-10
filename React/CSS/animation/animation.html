@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            *{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                margin-left: 50px;
+                margin-right: 50px;
+                padding: 5px;
+            }
+
+            body{
+                background-color: bisque;
+            }
+
+            @keyframes fadeIn{
+                0% {opacity:0};
+                100% {opacity: 1};
+            }
+
+            .fade-in-element{
+                background-color: darkseagreen;
+                border: 1px solid;
+                border-radius: 17px;
+                animation: fadeIn 3s ease-in-out;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>@keyframes demo</h1>
+
+        <div class="fade-in-element">
+            <p>Animation example</p>
+            <p>Animation example</p>
+            <p>Animation example</p>
+            <p>Animation example</p>
+        </div>
+    </body>
+
+
+</html>
